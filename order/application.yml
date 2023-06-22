@@ -1,0 +1,7 @@
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3307/loja_db
+    password: root
+    username: root
